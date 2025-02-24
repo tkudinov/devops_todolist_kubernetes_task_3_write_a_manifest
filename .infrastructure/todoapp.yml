@@ -22,4 +22,4 @@ spec:
           path: /ready
           port: 8080
           initialDelaySeconds: 5
-          periodSecods: 5
+          periodSeconds: 5
