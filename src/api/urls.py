@@ -13,6 +13,6 @@ router.register(r"ready", views.ReadinessCheck)
 app_name = "api"
 urlpatterns = [
     path("", include(router.urls)),
-    path("/health", include(router.urls)),
-    path("/ready", include(router.urls))
+    path("health", include(router.urls)),
+    path("ready", include(router.urls))
 ]
